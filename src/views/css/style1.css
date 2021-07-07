@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-brand img{
+    float:right;
+}
+
+
+
+.carousel-item{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    height: 5em;
+}
+
+.navbar{
+    background-color:green;
+    border-bottom: 10px;
+    
+}
+
+.navbar-nav a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight:bolder;
+    padding: 6px;
+    color:skyblue;
+
+}
+
+.form-inline{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.navbar-nav a:hover{
+    color:indigo;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar .navbar-toggler{
+    border: 1px solid hotpink;
+}
